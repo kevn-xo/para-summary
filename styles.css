@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eee4db;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to right, #7e203a, #233238);
+  color: rgb(220, 205, 205);
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero .highlight {
+  color: #d54f37;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.primary {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #e55646;
+  color: rgb(0, 0, 0);
+}
+
+.summary-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.option {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.option span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e55646;
+}
+
+.api-key-container {
+  background: #eee4db;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.api-key-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.api-key-container p {
+  font-size: 1rem;
+  color: #eee4db;
+  margin-bottom: 10px;
+}
+
+.api-key-container input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.api-key-container button {
+  background: #e55646;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.api-key-container button:hover {
+  background: #900D09;
+}
+
+.status-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #27ae60;
+}
+
+.summarizer {
+  background: white;
+  padding: 50px;
+  border-radius: 12px;
+  width: 70%;
+  margin: 50px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.summarizer h2 {
+  font-size: 2rem;
+}
+
+.summarizer p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.summary-buttons {
+  margin-top: 20px;
+}
+
+.summary-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e55646;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.summary-output {
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9fb;
+  border-left: 6px solid #e55646;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  color: #333;
+  text-align: justify;
+  line-height: 1.6;
+  display: none; /* Initially hidden */
+  max-width: 800px;
+  margin: 20px auto 40px auto;
+  font-weight: 500;
+}
+
+.summary-output::before {
+  content: "🔍 Summary:";
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
