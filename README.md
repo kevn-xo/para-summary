@@ -36,6 +36,17 @@ Open `index.html` in your browser.
 ### 3. Set Your Gemini API Key
 Set your API key in the input section before using the summarizer.
 
+## How to Get a Gemini API Key
+
+Follow these steps to obtain a Gemini API key:
+
+1. Visit the Google AI website: [Google AI](https://ai.google.dev/)
+2. Sign in with your Google account.
+3. Navigate to the **API Keys** section.
+4. Click on **Create API Key** and follow the instructions.
+5. Copy your API key and securely store it.
+6. Paste the API key into the summarizer's input field.
+
 ## Technologies Used
 
 - **HTML, CSS, JavaScript**
