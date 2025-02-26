@@ -28,3 +28,20 @@ The AI-generated summary will be displayed neatly in the output box.
 ```sh
 git clone https://github.com/kevn-xo/para-summary.git
 cd para-summary
+```
+
+### 2. Open the project
+Open `index.html` in your browser.
+
+### 3. Set Your Gemini API Key
+Set your API key in the input section before using the summarizer.
+
+## Technologies Used
+
+- **HTML, CSS, JavaScript**
+- **Google Gemini API** for AI-powered text summarization
+- **LocalStorage** for API key management
+
+## License
+
+This project is **open-source** and available under the MIT License.
