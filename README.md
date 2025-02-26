@@ -40,7 +40,7 @@ Set your API key in the input section before using the summarizer.
 
 Follow these steps to obtain a Gemini API key:
 
-1. Visit the Google AI website: [Google AI](https://ai.google.dev/)
+1. Visit the Google AI website: [Google AI]([https://ai.google.dev/](https://aistudio.google.com/apikey))
 2. Sign in with your Google account.
 3. Navigate to the **API Keys** section.
 4. Click on **Create API Key** and follow the instructions.
